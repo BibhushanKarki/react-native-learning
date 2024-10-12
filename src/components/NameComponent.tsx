@@ -1,12 +1,12 @@
 import { View, Text } from "react-native";
 import React from "react";
 
-const Greet = () => {
+const NameComponent = () => {
   return (
     <View>
-      <Text>Greet Component</Text>
+      <Text>My name is Bibhushan Karki</Text>
     </View>
   );
 };
 
-export default Greet;
+export default NameComponent;

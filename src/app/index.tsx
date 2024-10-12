@@ -1,12 +1,13 @@
 import { View, Text } from "react-native";
 import React from "react";
-import Greet from "../components/Greet";
+import NameComponent from "../components/NameComponent";
+import AgeComponent from "../components/AgeComponent";
 
 const Index = () => {
   return (
     <View>
-      <Text>Hello world</Text>
-      <Greet />
+      <NameComponent />
+      <AgeComponent />
     </View>
   );
 };
